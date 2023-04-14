@@ -1,0 +1,133 @@
+input:focus button:focus{
+    outline: none;
+    border: none;
+}
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+.RegisterFormContainer{
+    width:500px;
+    height:550px;
+    padding: 80px;
+    background-color: #2a2e45;
+    box-sizing: 0px 0px 20px 0px #32322c;
+}
+.login_form_heading{
+    text-align:center;
+    color: white;
+    font-weight: 600;
+}
+.error_text{
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     align-self: flex-start;
+    color: rgb(195, 108, 108);
+    font-weight: 600;
+    padding-left: 10px;
+    margin-top: -30px;
+    text-shadow: 2px 2px 8px rgb(19, 215, 205);
+
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:500px;
+    height:550px;
+    padding: 80px;
+    background-color: #2a2e45;
+    box-sizing: 0px 0px 20px 0px #32322c;
+}
+.Text_input{
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    align-self:stretch ;
+    color:white;
+    background-color: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+     border-bottom-color: rgb(255,255,255,0.7); 
+    
+   
+
+
+}
+.invaild{
+    height: 50px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  align-self:stretch ;
+  color:white;
+  background-color: transparent;
+  border-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;  
+  /* border-bottom-color: rgb(255,255,255,0.7); */
+  border-bottom-color: red;
+}
+.Text_input.invaild{
+      height: 50px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    align-self:stretch ;
+    color:white;
+    background-color: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;  
+    /* border-bottom-color: rgb(255,255,255,0.7); */
+    border-bottom-color: red;
+}
+.text_input:focus{
+    outline: none;
+}
+.checkBoxLabel{
+    margin-left:20px;
+    vertical-align:bottom;
+    color:white;
+    font-weight: 600;
+}
+ .checkbox{
+    width:18px;
+    height:18px;
+    vertical-align:top;
+    margin-left: 10px;
+    margin-left: -20px;
+    background-color: #59a96a; 
+   
+} 
+ .button{
+    height:60px;
+    width:100%;
+    padding:15px 32px;
+    margin-top:10px;
+    display:inline-block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    border: none;
+    border-radius:40px;
+    background-color:#db5461 ;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3) ;
+}
+.RegisterFormContainer button:active{
+    transform: scale(0.2);
+    transition-duration:ms ; 
+
+}
+.Disabled{
+    background-color: rgba(255,255,255,0.2) !important;
+    color: rgba(225 ,255,255,0.7) !important;
+}
+.Disabled:active{
+    transform: none !important;
+}
